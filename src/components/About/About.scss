@@ -1,4 +1,22 @@
-#about {
+.about__title {
+  font-size: 1.5625rem;
+  background: linear-gradient(#f2f9fe 50%, #d6f0fd 100%);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-top: 5%;
+  padding: 1.25rem;
+}
+
+.about__txt {
   border: 2px solid #f2f9fe;
-  border-radius: 0.3125rem;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 0.9375rem;
+  padding: 1.25rem;
+}
+
+#about {
+  text-align: center;
+  width: 80%;
+  margin: auto;
 }

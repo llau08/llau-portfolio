@@ -4,7 +4,7 @@ import "../Projects/Projects.scss";
 function Projects() {
   return (
     <section id="projects">
-      <h3>Projects</h3>
+      <h3 className="projects__title">Projects</h3>
       {projects.map((project) => (
         <>
           <h3>{project.title}</h3>

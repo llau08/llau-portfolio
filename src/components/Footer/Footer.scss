@@ -1,4 +1,12 @@
 .footer {
   background: linear-gradient(#f2f9fe 50%, #d6f0fd 100%);
   text-align: center;
+  margin-top: 5%;
+  padding: 5%;
+
+  &__note {
+    color: rgb(84, 148, 169);
+    font-style: italic;
+    margin-bottom: 10px;
+  }
 }
