@@ -1,19 +1,21 @@
 .about__title {
   font-size: 1.5625rem;
   background: linear-gradient(#f2f9fe 25%, rgb(200, 219, 226) 100%);
-  border-radius: 5px;
+  border-top-left-radius: 0.3125rem;
+  border-top-right-radius: 0.3125rem;
   margin-top: 5%;
   padding: 1.25rem;
 }
 
 .about__txt {
   border: 2px solid rgb(200, 219, 226);
+  border-top: none;
+  border-bottom-left-radius: 0.3125rem;
+  border-bottom-right-radius: 0.3125rem;
   font-size: 0.9375rem;
   padding: 1.25rem;
   margin: auto;
-  margin-top: 1.25rem;
   line-height: 1.875rem;
-  width: 80%;
 }
 
 #about {
