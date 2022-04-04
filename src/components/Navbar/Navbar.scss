@@ -1,0 +1,13 @@
+.nav {
+  background-color: black;
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5625rem;
+    list-style-type: none;
+    line-height: 3.125rem;
+    padding-top: 5%;
+    padding-left: 5%;
+  }
+}
