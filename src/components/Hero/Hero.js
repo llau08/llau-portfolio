@@ -5,8 +5,8 @@ function Hero() {
   return (
     <section className="hero">
       <img src={logo} className="hero__img" alt="Lida Lau" />
-      <h1>Web Developer</h1>
-      <h2>Located in Vancouver, BC</h2>
+      <h1 className="hero__title">Web Developer</h1>
+      <h2 className="hero__title--btm">Vancouver, BC</h2>
     </section>
   );
 }
