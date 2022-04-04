@@ -22,8 +22,8 @@ function Projects() {
     <section id="projects">
       <h3 className="projects__title">Projects</h3>
       <hr className="projects__div" />
-      {projects.map((project) => (
-        <div className="projects__card">
+      {projects.map((project, i) => (
+        <div key={i} className="projects__card">
           <h3 className="projects__name">{project.title}</h3>
           <p className="projects__txt">{project.description}</p>
           <img src={project.image} className="projects__img" alt="project" />
