@@ -14,8 +14,7 @@ function About() {
         to build projects and learn different languages to further explore my
         new career and showcase my best work. When I'm not practicing code, I
         love to stream movies and shows, play video games and hang out with
-        friends. Feel free to contact me for collaboration or answer questions
-        about any of my work.
+        friends. Feel free to contact me!
       </p>
     </section>
   );
